@@ -1,0 +1,32 @@
+@import "variables";
+
+[class ^="section-"] {
+  display: grid;
+  place-items: center;
+  border: 3px red solid;
+}
+
+.container {
+  display: grid;
+  grid-gap: .5rem;
+  height: 100vh;
+  grid-template-columns: .25fr 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+  "h h h h   h h h h"
+  "s m m m   m m m m";
+}
+
+.section-header {
+  grid-area: h;
+}
+
+.section-sidebar {
+  grid-area: s;
+}
+
+.section-main {
+  grid-area: m;
+}
+
+

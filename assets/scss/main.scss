@@ -1,4 +1,40 @@
-h1 {
-  color: red;
-  background-color: red;
+@import "variables";
+@import "elements";
+
+$breakpoints: (
+  mobile: 480px,
+  tablet: 768px,
+  desktop: 1440px,
+);
+
+@mixin query($screen) {
+  @each $key, $value in $breakpoints {
+    @if ($screen == $key) {
+      @media (max-width: $value) {
+        @content;
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-family: monospace;
+  }
+}
+
+@include query(mobile) {
+  .container {
+    grid-template-rows: .15fr 1fr;
+    grid-template-areas:
+    "h h h h   h h h h"
+    "m m m m   m m m m";
+  }
+  .section-sidebar {
+    display: none;
+  }
 }
