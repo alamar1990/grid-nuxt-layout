@@ -37,4 +37,18 @@ $breakpoints: (
   .section-sidebar {
     display: none;
   }
+
+  .card-container {
+    display: grid;
+    //grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    //grid-gap: 20px;
+    //align-items: stretch;
+    //padding: 20px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+  "c1 c1 c1 c1   c1 c1 c1 c1"
+  "c2 c2 c2 c2   c2 c2 c2 c2";
+  }
 }

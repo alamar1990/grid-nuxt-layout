@@ -2,7 +2,6 @@
 
 [class ^="section-"] {
   display: grid;
-  place-items: center;
   border: 3px red solid;
 }
 
@@ -27,6 +26,29 @@
 
 .section-main {
   grid-area: m;
+}
+
+.card-container {
+  display: grid;
+  //grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  //grid-gap: 20px;
+  //align-items: stretch;
+  //padding: 20px;
+
+  padding: 20px;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "c1 c1 c1 c1   c2 c2 c2 c2"
+  "c1 c1 c1 c1   c2 c2 c2 c2";
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  border: 0 solid #ccc;
+  box-shadow: 1px 5px 6px -1px rgba(0, 0, 0, 0.2);
 }
 
 
