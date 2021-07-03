@@ -1,46 +1,37 @@
 <template>
-  <div class='card-container'>
+  <div class='main-container'>
     <div class=''>
-      <div class='finances-container'>
+      <div class='data-container'>
         <div class='card'>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
+          <div>
+            <p class='title'>Cards</p>
+          </div>
+          <div class='credit-cards-container'>
+            <div class='credit-cards-item'>
+
+            </div>
+            <div class='credit-cards-item'>
+
+            </div>
+          </div>
+
         </div>
         <div class='card'>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
+          <p class='title'>Transaction History</p>
 
         </div>
       </div>
     </div>
     <div class=''>
-      <div class='finances-container'>
+      <div class='data-container'>
         <div class='card'>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
+          <p class='title'>Goals</p>
         </div>
         <div class='card'>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
+          <p class='title'>Outcome statistics</p>
         </div>
         <div class='card'>
-          <h1>TEST</h1>
-          <h1>TEST</h1>
+          <p class='title'>New transactions</p>
         </div>
       </div>
     </div>
