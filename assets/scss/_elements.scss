@@ -2,7 +2,7 @@
 
 [class ^="section-"] {
   display: grid;
-  border: 3px red solid;
+  //border: 3px red solid;
 }
 
 .container {
@@ -19,6 +19,7 @@
 .section-header {
   grid-area: h;
   height: 5rem;
+  box-shadow: 1px 5px 6px -1px rgba(0, 0, 0, 0.2);
 }
 
 .section-sidebar {
@@ -53,9 +54,11 @@
 }
 
 .card {
-  padding: .5rem;
+  padding: .8rem;
   margin: .5rem;
-  border: 3px red solid;
+  border: 0 solid #ccc;
+  box-shadow: 1px 5px 6px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
 }
 
 
