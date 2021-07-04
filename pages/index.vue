@@ -1,10 +1,10 @@
 <template>
-  <div class='d-flex col-md-10 col-sm-12 section-main'>
+  <div class='d-flex col-md col-sm section-main'>
     <div class='d-flex flex-grow-1'>
-      <div class='col-6 bg-primary'>
+      <div class='col bg-primary'>
 
       </div>
-      <div class='col-6 bg-secondary'>
+      <div class='col bg-danger'>
 
       </div>
     </div>
