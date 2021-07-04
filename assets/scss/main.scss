@@ -4,3 +4,26 @@
 
 // General style overrides and custom classes
 @import 'theme';
+
+html, body {
+
+}
+
+.section-sidebar {
+  background: aqua;
+}
+
+.section-main {
+  padding: 2rem;
+  background: dimgrey;
+}
+
+.section-header {
+  height: 5rem;
+  background: darkolivegreen;
+}
+
+.main-container {
+  min-height: 100vh;
+  min-width: 100vh;
+}
