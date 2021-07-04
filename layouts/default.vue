@@ -3,9 +3,9 @@
     <div class='d-flex'>
       <section-header />
     </div>
-    <div class='d-flex flex-row flex-grow-1'>
+    <div class='d-flex flex-grow-1'>
       <section-sidebar />
-      <section-main />
+      <Nuxt />
     </div>
   </div>
 </template>
@@ -13,10 +13,9 @@
 <script>
 import SectionHeader from '../components/theme/section-header'
 import SectionSidebar from '../components/theme/section-sidebar'
-import SectionMain from '../components/theme/section-main'
 
 export default {
-  components: { SectionMain, SectionSidebar, SectionHeader },
+  components: { SectionSidebar, SectionHeader },
   data() {
     return {}
   }
