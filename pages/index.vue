@@ -1,14 +1,20 @@
 <template>
-  <div class='d-flex col-md col-sm section-main'>
-    <div class='d-flex flex-grow-1'>
-      <div class='col bg-primary'>
-
+  <div class='container'>
+    <div class='row h-100'>
+      <div class='col-sm bg-primary'>
+        <div class='col justify-content-center'>
+          <div class='row h-100'>
+            One of two rows
+          </div>
+          <div class='row h-100'>
+            One of two rows
+          </div>
+        </div>
       </div>
-      <div class='col bg-danger'>
-
-      </div>
+      <div class='col-sm bg-danger'>col-sm-4</div>
     </div>
   </div>
+
 </template>
 
 <script>
