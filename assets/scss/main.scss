@@ -26,6 +26,13 @@
 }
 
 .main-container {
-  min-height: 100vh;
-  min-width: 100vh;
+
+}
+
+.card {
+  padding: .8rem;
+  margin: .5rem;
+  border: 0 solid #ccc;
+  box-shadow: 1px 12px 12px -1px rgba(0, 0, 0, .1);
+  border-radius: 1.5rem;
 }
